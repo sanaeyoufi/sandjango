@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+    <title>project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style1.css'%}">
+    <style>
+    </style>
+     <script src="{% static 'js/script1.js'%}"></script>
+    </head>
+     <body>
+    <section>
+        <article class="view">
+
+            <img src="{%static 'image/Screenshot_20211207-004433_Chrome.jpg'%}" alt="logo" />
+            <div class="mask">
+                <h2>Titre de l'article</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <a href="/z/" > Read More </a>
+            </div>
+        </article>
+        <article class="view">
+
+            <img src="{%static 'image/Screenshot_20211207-004943_Chrome.jpg'%}" alt="img" />
+            <div class="mask">
+                <h2>Titre de l'article</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <a href="/k/" > Read More </a>
+            </div>
+        </article>
+
+    </section>
+    </body>
+</html>
